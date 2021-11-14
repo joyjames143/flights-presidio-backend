@@ -1,6 +1,6 @@
 import React from 'react'
 import FlightsSearch from './components/FlightsSearch'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import CrudFlights from './components/CrudFlights';
 import EditFlight from './components/EditFlight';
 import BookingDetails from './components/BookingDetails';
